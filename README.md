@@ -7,3 +7,8 @@ Tout a été pensé pour **créer une envie de lire et de s'y intéresser**. Le 
 
 ### Aller plus loin que le simple portfolio
 Pour aller plus loin, des **mini-jeux** ont été cachés dans le portfolio, toujours dans l'objectif de démontrer mes **capacités** ainsi que procurer la sensation de **satisfaction** auprès du lecteur afin qu'il passe un agréable moment sur le site. Donner envie de lire un portfolio, c'est rare, **mais c'est possible**.
+
+
+
+# ATTENTION
+La lecture du portfolio peut être difficile si l'écran n'a pas une résolution de **1920x1080**. Si c'est le cas, cliquez sur le bouton *Passer en mode fenêtré* afin de modifier le comportement du site.
