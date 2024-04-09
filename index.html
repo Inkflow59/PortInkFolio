@@ -30,22 +30,20 @@
   }
 </style>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel='icon' href='icon.ico' type='image/x-icon'/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
-  <link rel='icon' href='icon.ico' type='image/x-icon'/>
+    <!-- Autorise le plein écran sur les mobiles iOS -->
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="HandheldFriendly" content="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
-
-  <!-- Autorise le plein écran sur les mobiles iOS -->
-  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <meta name="HandheldFriendly" content="true" />
-
-  <title>PortInkFolio (ver. Dev)</title>
+    <title>PortInkFolio (ver. Dev)</title>
 
 	<script>
 	   	// Detection des ancien navigateurs qui ne supportent pas l'element Canvas
@@ -94,7 +92,7 @@
             // Appelle le runtime
             // Premier parametre : le nom de l'element Canvas
             // Second parametre : chemin vers le fichier CCH. Les sons et les images doivent se trouver a cote
-            new Runtime("MMFCanvas", "resources/PortfolioInk.cch");
+            new Runtime("MMFCanvas", "resources/PortInkFolio.cch");
         }
         // RUNTIMESTARTEND
     </script>
