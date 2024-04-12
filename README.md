@@ -18,7 +18,7 @@ Pour aller plus loin, des **mini-jeux** ont été cachés dans le portfolio, tou
 La lecture du portfolio peut être difficile si l'écran n'a pas une résolution de **1920x1080** (ou toute autre résolution de type **16:9**). Si c'est le cas, cliquez sur le bouton *Passer en mode fenêtré* afin de modifier le comportement du site.
 
 
-<p align="center"><i>Project XP - Made with love by Inkflow (Tom CUCHEROSSET)</i><br></p>
+<p align="center"><i>Project XP - Made with love by Inkflow (Tom CUCHEROSSET)</i></p>
 <p align="center"><i><strong>2024</strong></i></p>
 
-#Complétion estimée à : 10%
+# Complétion estimée à : 10%
