@@ -21,4 +21,4 @@ La lecture du portfolio peut être difficile si l'écran n'a pas une résolution
 <p align="center"><i>Project XP - Made with love by Inkflow (Tom CUCHEROSSET)</i></p>
 <p align="center"><i><strong>2024</strong></i></p>
 
-# Complétion estimée à : 10%
+# Complétion estimée à : 13%
