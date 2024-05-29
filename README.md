@@ -15,7 +15,7 @@ Pour aller plus loin, des **mini-jeux** ont été cachés dans le portfolio, tou
 ### Lancement du portfolio en local
 Si vous souhaitez lancer le portfolio en local *(c'est-à-dire en version non-hébergée)*, **lancer le fichier HTML n'affichera rien**. La technologie MFACanva a besoin d'un serveur local pour fonctionner. Pour cela, il vous suffit de télécharger et d'installer [XAMPP](https://www.apachefriends.org/fr/index.html) ou [WampServer](https://wampserver.aviatechno.net/) pour Windows, ou ses équivalents pour les autres systèmes d'exploitations. Il vous suffira ensuite de glisser les fichiers du site dans le dossier d'hébergement *(**htdocs** pour XAMPP et **www** pour WampServer)* et de vous y rendre depuis le navigateur pour accéder au site en local.
 
-### Exécutable Windows
+### Exécutable Windows *(mode hors-ligne)*
 *En cours de construction, revenez plus tard*
 
 # ATTENTION
