@@ -1,8 +1,6 @@
 [![made-with-js](https://img.shields.io/badge/Made%20with-JavaScript-009dcf.svg)](https://www.javascript.com)
-[![made-with-ts](https://img.shields.io/badge/Made%20with-TypeScript-009dcf.svg)](https://www.typescriptlang.org/)
 [![made-with-mfa](https://img.shields.io/badge/Made%20with-Clickteam%20Fusion-009dcf.svg)](https://www.clickteam.com/fr/clickteam-fusion-2-5)
 [![made-with-html](https://img.shields.io/badge/Made%20with-HTML5-009dcf.svg)](https://www.wikipedia.org/wiki/HTML5)
-[![made-with-css](https://img.shields.io/badge/Made%20with-CSS-009dcf.svg)](https://en.wikipedia.org/wiki/CSS)
 
 # Le PortInkFolio
 ### Un portfolio moderne venu du passé
