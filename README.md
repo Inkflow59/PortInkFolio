@@ -16,12 +16,15 @@ Pour aller plus loin, des **mini-jeux** ont été cachés dans le portfolio, tou
 Si vous souhaitez lancer le portfolio en local *(c'est-à-dire en version non-hébergée)*, **lancer le fichier HTML n'affichera rien**. La technologie MFACanva a besoin d'un serveur local pour fonctionner. Pour cela, il vous suffit de télécharger et d'installer [XAMPP](https://www.apachefriends.org/fr/index.html) ou [WampServer](https://wampserver.aviatechno.net/) pour Windows, ou ses équivalents pour les autres systèmes d'exploitations. Il vous suffira ensuite de glisser les fichiers du site dans le dossier d'hébergement *(**htdocs** pour XAMPP et **www** pour WampServer)* et de vous y rendre depuis le navigateur pour accéder au site en local.
 
 ### Exécutable Windows *(mode hors-ligne)*
-*En cours de construction, revenez plus tard*
+Ce portfolio est également disponible en **mode offline** afin de pouvoir le lire n'importe où, et ce sans se soucier de sa connexion internet. Pour ce faire, il vous suffira de télécharger le ``.zip`` disponible dans la section **Releases** de ce GitHub et de **l'extraire**. Il ne vous manquera plus qu'à lancer le ``.exe`` et le tour sera joué !<br>
+<br>
+> [!NOTE]
+> La version **online *(web)*** du portfolio sera souvent plus avancée que la version **offline *(exécutable)*** du portfolio, pour la simple raison que l'exécutable prends plus de temps qu'un simple build HTML et JS. Préférez donc la version **online** si vous souhaitez être le plus à jour sur le portfolio.
 
 # ATTENTION
 La lecture du portfolio peut être difficile si l'écran n'a pas une résolution de **1920x1080** (ou toute autre résolution de type **16:9**). Si c'est le cas, cliquez sur le bouton *Passer en mode fenêtré* afin de modifier le comportement du site.
 
-<h1 align="center">Complétion estimée à 13%</h1>
+<h1 align="center">Complétion estimée à 14%</h1>
 
 <p align="center"><i>Project XP - Made with love by Inkflow (Tom CUCHEROSSET)</i></p>
 <p align="center"><i><strong>2024</strong></i></p>
