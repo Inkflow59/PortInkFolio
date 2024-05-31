@@ -2,6 +2,7 @@
 [![made-with-mfa](https://img.shields.io/badge/Made%20with-Clickteam%20Fusion-009dcf.svg)](https://www.clickteam.com/fr/clickteam-fusion-2-5)
 [![made-with-html](https://img.shields.io/badge/Made%20with-HTML5-009dcf.svg)](https://www.wikipedia.org/wiki/HTML5)
 
+![Logo du projet](/resources/logoPortinkfolio.png)
 # Le PortInkFolio
 ### Un portfolio moderne venu du passé
 Ce portfolio, codé à l'aide d'**HTML** et de **JavaScript**, interprétés et générés par le logiciel **Clickteam Fusion 2.5** *(language dit **MFA** pour **Multimedia Fusion Application**)*, simule un système tournant sous **Windows XP** pour une expérience unique et nostalgique. Il permet une meilleure **visibilité** ainsi qu'une navigation plus **intuitive** et plus **dynamique**. Pour parvenir à ce résultat, une extraction depuis les fichiers système de Windows XP a été nécessaire, comprenant **les sons, les logos, les icônes** ainsi qu'une analyse approfondie du **comportement** de la machine.
