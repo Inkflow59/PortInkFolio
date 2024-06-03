@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Lien pour les web fonts -->
-    <link href="src/Webfonts/fonts.css" rel="stylesheet" />
 
-    <link rel='icon' href='icon.ico' type='image/x-icon'/>
+<style type="text/css">
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #F00;
+        font-size: x-large;
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000;
+        font-size: small;
+    }
+
+    body {
+        background-color: #FFF;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #bloctxt {
+        border-left-width: 5px;
+        border-left-style: solid;
+        border-left-color: #F00;
+        padding-left: 10px;
+        position: absolute;
+        left: 50%%;
+        width: 600px;
+        margin-left: -260px
+    }
+</style>
+
+<head>
+    <link href="src/Webfonts/fonts.css" rel="stylesheet" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
     <!-- Autorise le plein écran sur les mobiles iOS -->
@@ -15,25 +45,37 @@
 
     <title>PortInkFolio (ver. Dev)</title>
 
-	<script>
-	   	// Detection des ancien navigateurs qui ne supportent pas l'element Canvas
-		// Appelle une page par defaut
-	    if (!document.createElement("canvas").getContext)
-	    {
-			window.open("http://www.clickteam.com/fr/html5-fallback", "_self");
-		}
-	</script>
+    <script>
+        // Detection des ancien navigateurs qui ne supportent pas l'element Canvas
+        // Appelle une page par defaut
+        if (!document.createElement("canvas").getContext) {
+            window.open("http://www.clickteam.com/fr/html5-fallback", "_self");
+        }
+    </script>
 
-  	<!-- EXTRASOURCES -->
-	<!-- Charge le code Javascript...-->
+    <!-- EXTRASOURCES -->
+    <!-- Charge le code Javascript...-->
     <script src="src/Runtime.js"></script>
+
+    <script>
+        // Detecte si le fichier HTML est lance localement
+        // Vous pouvez enlever ce code dans la version finale
+        if (window.location.protocol == "file:") {
+            document.write('<div id="bloctxt">');
+            document.write("<h1>Impossible de lancer l'application...</h1>");
+            document.write("<p>Les navigateurs Internet modernes ne vous permettent pas de lancer des pages Web <br>directement a partir de l'ordinateur.<br>");
+            document.write("Un glisser-deposer d'un fichier HTML ne fonctionnera pas plus, quelle que soit la machine.<br>");
+            document.write("Utilisez l'option Construire & Lancer pour tester votre application (elle lance un serveur Web local),<br>")
+            document.write("ou t&eacutel&eacutechargez votre application sur un serveur Web...</p>");
+            document.write('</div>');
+            throw new error("Cannot run application");
+        }
+    </script>
 </head>
 
 <body>
     <div style="display: inline-block; -webkit-user-select: none; text-align: left;">
-        <canvas id="MMFCanvas" width="1920" height="1080">
-            Votre navigateur ne supporte pas l'element Canvas.
-        </canvas>
+        <canvas id="MMFCanvas" width="1920" height="1080">Votre navigateur ne supporte pas l'element Canvas.</canvas>
     </div>
 
     <script>

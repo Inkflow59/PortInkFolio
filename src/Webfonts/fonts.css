@@ -4,6 +4,7 @@
     url('Montserrat-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -12,14 +13,7 @@
     url('Fredoka-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Windows XP Tahoma';
-    src: url('WindowsXPTahoma.woff2') format('woff2'),
-    url('WindowsXPTahoma.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -28,4 +22,14 @@
     url('FranklinGothic-Book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Windows XP Tahoma';
+    src: url('WindowsXPTahoma.woff2') format('woff2'),
+    url('WindowsXPTahoma.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
